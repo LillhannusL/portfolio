@@ -1,9 +1,44 @@
-.NavBar {
+.navbar {
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
+	background-color: var(--accent);
+	padding: 0.5rem 0;
+
+	position: fixed;
+	top: -70px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: top 0.3s ease-in-out;
+	z-index: 10;
 }
 
-.NavBar_name {
+.navbar-show {
+	top: 0;
+}
+
+.navbar-hide {
+	top: -60px;
+}
+
+.navbar_container {
+	margin: 0 auto;
+	padding: 0 0.5rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.navbar_name {
 	font-size: 1rem;
+}
+
+.navbar_links {
+	list-style: none;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.navbar_links a {
+	text-decoration: none;
+	color: var(--text);
 }
