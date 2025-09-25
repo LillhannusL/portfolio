@@ -1,0 +1,11 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--accent);
+	padding: 1rem;
+}
+
+.footer h1 {
+	font-size: 1rem;
+}
