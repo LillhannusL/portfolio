@@ -1,3 +1,17 @@
 .hero {
 	padding: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.hero h1 {
+	font-size: 3rem;
+}
+
+.hero h2 {
+	font-size: 2rem;
+	font-weight: 100;
 }
