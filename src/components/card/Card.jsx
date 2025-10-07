@@ -1,15 +1,10 @@
 import React from 'react';
 import './card.css';
-import Button from '../button/Button';
 
-function Card({ title, text, btnText, btnOnClick }) {
-	return (
-		<div className="card">
-			<h3>{title}</h3>
-			<p>{text}</p>
-			{btnText && <Button text={btnText} onClick={btnOnClick} />}
-		</div>
-	);
+export function Card({ className, children }) {
+	return <div className={`card ${className}`}>{children}</div>;
 }
 
-export default Card;
+export function CardContent({ className, children }) {
+	return <div className={`card_content ${className}`}>{children}</div>;
+}

@@ -1,10 +1,15 @@
 .hero {
 	padding: 5rem;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
+}
+
+.hero_content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
 }
 
 .hero h1 {
@@ -12,6 +17,32 @@
 }
 
 .hero h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 100;
+}
+
+.hero_img {
+	width: 0 auto;
+	height: 400px;
+	/* border-radius: 30%; */
+	object-fit: cover;
+	object-position: center 30%;
+	margin-left: 13rem;
+	z-index: 1;
+	position: relative;
+}
+
+.img_box {
+	width: 400px;
+	height: 400px;
+	background-color: #ffe0cf;
+	border-radius: 50%;
+	z-index: -1;
+	position: absolute;
+	right: 100px;
+	top: 150px;
+}
+
+.hero_Btn {
+	width: 40%;
 }
