@@ -10,6 +10,7 @@
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	transition: all 0.3s ease;
 	text-shadow: 0 2px 3px rgb(66, 66, 66);
+	cursor: pointer;
 }
 
 .button:hover {

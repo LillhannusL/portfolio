@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-	--backgrund: #fafafa;
-	--accent: #c9a7f2;
 	--text: #1e293b;
 }
 
@@ -13,16 +11,12 @@
 }
 
 body {
+	width: 100%;
 	min-height: 100vh;
 	background: linear-gradient(135deg, #feb7b0, #cea1ea, #7e9fd8);
-	color: #1e293b;
+	color: var(--text);
 	padding: 2rem;
 	position: relative;
 	font-family: 'Inter', sans-serif;
 	font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.dark-mode {
-	background-color: var(--darkmode-BG);
-	color: var(--backgrund);
 }

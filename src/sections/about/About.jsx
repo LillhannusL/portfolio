@@ -7,13 +7,17 @@ function About() {
 		<div className="about">
 			<h1 id="about">About</h1>
 			<p>
-				Jag heter Lisa Lillhannus och studerar Front-End utveckling. Jag gillar
-				att kombinera kreativ design med ren kod och att förvandla färdiga
-				designer till levande webbupplevelser med react och css. Jag strävar
-				alltid efter att lära mig nya tekniker för att skapa bättre och mer
-				tillgängliga digitala lösningar.På fritiden gillar jag att skapa, som
-				t.ex. virka, måla, sticka eller dreja - jag gillar utmaningen i att
-				kombinera kreativitet, noggrannhet och funktionalitet.
+				My name is Lisa Lillhannus, and I’m currently studying Front-End
+				Development. <br />
+				I love combining creative design with clean code, transforming static
+				designs into engaging web experiences using React and CSS. <br />
+				I’m always eager to learn new techniques to create better and more
+				accessible digital solutions.
+				<br />
+				<br />
+				In my free time, I enjoy hands-on creativity, whether it’s crocheting,
+				painting, knitting, or pottery. I thrive on the challenge of blending
+				creativity, precision, and functionality.
 			</p>
 		</div>
 	);

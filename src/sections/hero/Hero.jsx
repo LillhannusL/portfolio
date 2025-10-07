@@ -13,8 +13,13 @@ function scrollToProjects() {
 function Hero() {
 	return (
 		<div className="hero">
+			<div className="img_box"></div>
+			<img src={LLt} className="hero_img" />
 			<section className="hero_content">
-				<h1 id="hero">Hello! I'm Lisa Lillhannus</h1>
+				<h1 id="hero">
+					Hello! <br />
+					I'm Lisa Lillhannus
+				</h1>
 				<h2>
 					A Frontend-Developer student who enjoys creating visually appealing
 					and user-friendly websites.
@@ -25,10 +30,7 @@ function Hero() {
 					btnOnClick={() => scrollToProjects()}
 				/>
 			</section>
-			<section>
-				<div className="img_box"></div>
-				<img src={LLt} className="hero_img" />
-			</section>
+			<section></section>
 		</div>
 	);
 }
