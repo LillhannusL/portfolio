@@ -28,24 +28,21 @@ const handleClick = (url) => {
 
 function Projects() {
 	return (
-		<div className="projects">
-			<h1 id="projects">Projects</h1>
-			<div className="project_grid">
-				{projects.map((project, i) => (
-					<Card className="project_card" key={i}>
-						<h3>{project.title}</h3>
-						<img src={project.img} alt={project.title} />
-						<CardContent>
-							<p className="project_text">{project.description}</p>
-							<Button
-								className="project_btn"
-								btnText={'Visa Project'}
-								btnOnClick={() => handleClick(project.link)}
-							/>
-						</CardContent>
-					</Card>
-				))}
-			</div>
+		<div id="projects" className="project">
+			{projects.map((project, i) => (
+				<Card className="project_card" key={i}>
+					<h3>{project.title}</h3>
+					<img src={project.img} alt={project.title} />
+					<CardContent className="project_content">
+						<p className="project_text">{project.description}</p>
+						<Button
+							className="project_btn"
+							btnText={'Show Project'}
+							btnOnClick={() => handleClick(project.link)}
+						/>
+					</CardContent>
+				</Card>
+			))}
 		</div>
 	);
 }
