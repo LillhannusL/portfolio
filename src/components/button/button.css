@@ -1,14 +1,15 @@
 .button {
-	background-color: var(--accent);
+	background-color: #a7abf9;
 	color: white;
 	border: none;
 	padding: 12px 28px;
 	font-size: 1rem;
-	font-weight: 600;
+	font-weight: 400;
 	border-radius: 12px;
 	cursor: pointer;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	transition: all 0.3s ease;
+	text-shadow: 0 2px 3px rgb(66, 66, 66);
 }
 
 .button:hover {

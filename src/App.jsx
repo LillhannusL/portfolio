@@ -5,18 +5,20 @@ import Skills from './sections/skills/Skills.jsx';
 import Contact from './sections/contact/Contact.jsx';
 import NavBar from './components/navbar/NavBar.jsx';
 import Footer from './components/footer/Footer.jsx';
+import './app.css';
+
 function App() {
 	return (
 		<div className="app">
-			<NavBar />
-
-			<Hero />
-			<About />
-			<Projects />
-			<Skills />
-			<Contact />
-
-			<Footer />
+			<section className="app_container">
+				<NavBar />
+				<Hero />
+				<About />
+				<Projects />
+				<Skills />
+				<Contact />
+				<Footer />
+			</section>
 		</div>
 	);
 }

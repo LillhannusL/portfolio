@@ -1,3 +1,31 @@
 .skills {
-	padding: 5rem;
+	text-align: center;
+	padding: 4rem 2rem;
+}
+
+.skills_cloud {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 1rem;
+}
+
+.skill_bubble {
+	margin: 1rem;
+	background: #f4bdb8;
+	color: #fff;
+	font-weight: 400;
+	text-shadow: 0 2px 3px rgb(66, 66, 66);
+	padding: 1rem 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill_bubble:hover {
+	transform: scale(1.1);
 }

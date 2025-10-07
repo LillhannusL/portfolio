@@ -3,8 +3,7 @@
 :root {
 	--backgrund: #fafafa;
 	--accent: #c9a7f2;
-	--text: #333;
-	--darkmode-BG: #121212;
+	--text: #1e293b;
 }
 
 * {
@@ -14,8 +13,12 @@
 }
 
 body {
-	background-color: var(--backgrund);
-	color: var(--text);
+	min-height: 100vh;
+	background: linear-gradient(135deg, #feb7b0, #cea1ea, #7e9fd8);
+	color: #1e293b;
+	padding: 2rem;
+	position: relative;
+	font-family: 'Inter', sans-serif;
 	font-family: 'Schibsted Grotesk', sans-serif;
 }
 
