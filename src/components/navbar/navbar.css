@@ -1,0 +1,38 @@
+.navbar {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 1rem;
+}
+
+.navbar_name {
+	font-size: 0.9rem;
+}
+
+.navbar_links {
+	font-size: 0.9rem;
+	list-style: none;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.navbar_links a {
+	text-decoration: none;
+	color: var(--text);
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		justify-content: space-around;
+	}
+
+	.navbar_name {
+		font-size: 1rem;
+	}
+
+	.navbar_links {
+		font-size: 1rem;
+		gap: 2rem;
+	}
+}
