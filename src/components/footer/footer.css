@@ -17,10 +17,9 @@
 	background-color: #fdbe96;
 	font-size: 0.8rem;
 	color: white;
-	border: none;
+	text-decoration: none;
 	padding: 12px 28px;
 	text-shadow: 0 2px 3px rgb(66, 66, 66);
-	font-weight: 400;
 	border-radius: 12px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -45,6 +44,7 @@
 	}
 
 	.footer_btn {
+		text-align: center;
 		width: 20%;
 		font-size: 1rem;
 		padding: 1rem;

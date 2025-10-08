@@ -8,7 +8,7 @@
 .skill_bubble {
 	width: 5rem;
 	margin: 1rem;
-	background: #a7abf9;
+	background: #f2b66d;
 	color: #fff;
 	text-shadow: 0 2px 3px rgb(66, 66, 66);
 	padding: 1rem 4rem;
@@ -16,7 +16,7 @@
 	justify-content: center;
 	border-radius: 10px;
 	transition: transform 0.3s ease;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	/* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
 }
 
 .skill_bubble:hover {
