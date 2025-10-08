@@ -11,15 +11,12 @@ function Footer() {
 	return (
 		<footer id="contact" className="footer">
 			<p className="footer-copy">© {new Date().getFullYear()} L.Lillhannus</p>
-			<button
+			<a
 				className="footer_btn"
-				onClick={() =>
-					(window.location.href =
-						'mailto:lillhannus.lisa@gmail.com?subject=Hej!&body=Jag vill kontakta dig!')
-				}
+				href="mailto:lillhannus.lisa@gmail.com?subject=Hej!&body=Jag vill kontakta dig!"
 			>
 				Say hi 👋
-			</button>
+			</a>
 			<div className="footer_links">
 				<a
 					href="https://www.linkedin.com/in/lisa-lillhannus-873133358/"
