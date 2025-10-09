@@ -2,11 +2,12 @@ import React from 'react';
 import './skills.css';
 
 const skills = [
-	{ name: 'React' },
+	{ name: 'HTML' },
 	{ name: 'CSS' },
 	{ name: 'JavaScript' },
-	{ name: 'TypeScript' },
-	{ name: 'Figma' },
+	{ name: 'React' },
+	{ name: 'Git & GitHub' },
+	{ name: 'Node.js' },
 ];
 
 function Skills() {
