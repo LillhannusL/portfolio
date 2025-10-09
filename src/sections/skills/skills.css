@@ -11,12 +11,13 @@
 	background: #f2b66d;
 	color: #fff;
 	text-shadow: 0 2px 3px rgb(66, 66, 66);
-	padding: 1rem 4rem;
+	padding: 0.8rem 3.5rem;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
 	transition: transform 0.3s ease;
-	/* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
+	text-align: center;
 }
 
 .skill_bubble:hover {
