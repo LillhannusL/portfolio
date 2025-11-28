@@ -24,7 +24,7 @@ const projects = [
 	{
 		title: 'Strajk Bowling',
 		description:
-			'A school project where I developed a mobile-first booking application for a new bowling hall. Built with React and TypeScript, the app allows users to, book lanes, reserve bowling shoes, receive a confirmation and handle intermittent server errors. This project taught me how to build a fully typed React application with TypeScript and implement dynamic form validation based on user input.',
+			'A school project where I developed a mobile-first booking application for a new bowling hall. Built with React and TypeScript. This project taught me how to build a fully typed React application with TypeScript and implement dynamic form validation based on user input.',
 		img: strajkImg,
 		link: 'https://github.com/LillhannusL/strajkBowling',
 	},
@@ -40,7 +40,9 @@ function Projects() {
 			{projects.map((project, i) => (
 				<Card className="project_card" key={i}>
 					<h3>{project.title}</h3>
-					<img src={project.img} alt={project.title} />
+					<div className="projects_imgContainer">
+						<img src={project.img} alt={project.title} />
+					</div>
 					<CardContent className="project_content">
 						<p className="project_text">{project.description}</p>
 						<Button
