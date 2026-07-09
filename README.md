@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lisa Lillhannus — Portfolio
 
-## Getting Started
+A personal portfolio site built with Next.js, TypeScript and Tailwind CSS. Showcases selected frontend projects, skills, and a way to get in touch.
 
-First, run the development server:
+**🔗 Live site:** [your-domain.com](https://your-domain.com) <!-- replace once deployed -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<!-- Optional: add a screenshot once you have one
+![Portfolio preview](./public/preview.png)
+-->
+
+## Features
+
+- **Selected work** — a horizontally scrollable/draggable project rail with real screenshots and gifs, each opening in a full-screen lightbox on click
+- **Skills grid** — an interactive toolkit section with expandable proficiency notes per skill
+- **About & facts** — a short bio plus quick personal facts
+- **Custom cursor** — an animated dot-and-ring cursor on desktop (fine pointer only), disabled automatically on touch devices
+- **Animated background** — a lightweight canvas particle effect
+- **Accessibility** — visible focus states, a skip-to-content link, `aria` labelling on interactive controls, and reduced-motion support throughout
+- **Responsive** — mobile-first layout with a dedicated mobile nav menu
+
+## Tech stack
+
+|            |                                                                                                    |
+| ---------- | -------------------------------------------------------------------------------------------------- |
+| Framework  | [Next.js](https://nextjs.org) (App Router)                                                         |
+| Language   | TypeScript                                                                                         |
+| Styling    | Tailwind CSS v4                                                                                    |
+| Icons      | [Tabler Icons](https://tabler.io/icons), [React Icons](https://react-icons.github.io/react-icons/) |
+| Fonts      | Newsreader, Hanken Grotesk, JetBrains Mono (via `next/font/google`)                                |
+| Deployment | Vercel                                                                                             |
+
+## Project structure
+
+```
+app/
+├── components/       # UI components (Navbar, Hero, Work, ProjectCard, Lightbox, About, Skills, Contact, Footer, ...)
+├── data/             # Site content — projects, skills, nav links, facts
+├── globals.css       # Design tokens (colors, fonts) + base styles
+├── layout.tsx         # Root layout, fonts, metadata
+└── page.tsx           # Page composition
+public/
+└── projects/         # Project screenshots and gifs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contact
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email:** [lillhannus.lisa@gmail.com](mailto:lillhannus.lisa@gmail.com)
+- **GitHub:** [@LillhannusL](https://github.com/LillhannusL)
+- **LinkedIn:** [Lisa Lillhannus](https://www.linkedin.com/in/lisa-lillhannus-873133358)
