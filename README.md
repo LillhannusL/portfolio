@@ -2,11 +2,9 @@
 
 A personal portfolio site built with Next.js, TypeScript and Tailwind CSS. Showcases selected frontend projects, skills, and a way to get in touch.
 
-**🔗 Live site:** [your-domain.com](https://your-domain.com) <!-- replace once deployed -->
+**🔗 Live site:** [Lisa Lillhannus Portfolio](https://portfolio-three-ochre-73.vercel.app/)
 
-<!-- Optional: add a screenshot once you have one
-![Portfolio preview](./public/preview.png)
--->
+![Portfolio preview](./public/other/preview.pngpreview.png)
 
 ## Features
 

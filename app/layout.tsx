@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from './components/Navbar';
 
 export const metadata = {
-	// metadataBase: new URL('https://'),
+	metadataBase: new URL('https://portfolio-three-ochre-73.vercel.app/'),
 	title: 'Lisa Lillhannus - Frontend Developer',
 	description:
 		'Frontend developer in Stockholm with a background in light design. Building clean interfaces with React, Next.js and TypeScript.',
@@ -21,7 +21,7 @@ export const metadata = {
 		title: 'Lisa Lillhannus - Frontend Developer',
 		description:
 			'Frontend developer in Stockholm with a background in light design. Building clean interfaces with React, Next.js and TypeScript.',
-		// url: 'https://lillhannus.dev',
+		url: 'https://portfolio-three-ochre-73.vercel.app/',
 		siteName: 'Lisa Lillhannus',
 		locale: 'en_US',
 		type: 'website',
