@@ -4,7 +4,7 @@ A personal portfolio site built with Next.js, TypeScript and Tailwind CSS. Showc
 
 **🔗 Live site:** [Lisa Lillhannus Portfolio](https://portfolio-three-ochre-73.vercel.app/)
 
-![Portfolio preview](./public/other/preview.pngpreview.png)
+[Portfolio preview](./public/other/preview.pngpreview.png)
 
 ## Features
 
